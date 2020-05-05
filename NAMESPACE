@@ -1,0 +1,7 @@
+exportPattern("^[[:alpha:]]+")
+S3method(plot, MinED)
+importFrom("stats", "dbeta", "integrate", "pbeta", "qbeta", "rbinom")
+importFrom("Iso", "ufit", "pava")
+importFrom("ggplot2", "ggplot", "aes", "geom_bar", "xlab", "ylab",
+	         "geom_errorbar", "geom_point", "ylim", "geom_hline", "scale_x_discrete")
+importFrom("gridExtra", "grid.arrange")
